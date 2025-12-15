@@ -24,7 +24,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Restore previously active tab from localStorage
     const savedTab = localStorage.getItem('activeTab');
-    if (savedTab) {
+    const validTabs = ['cv', 'projects', 'publications', 'research', 'contact'];
+    if (savedTab && validTabs.includes(savedTab)) {
         const savedButton = document.querySelector(`[data-tab="${savedTab}"]`);
         if (savedButton) {
             savedButton.click();
@@ -34,18 +35,18 @@ document.addEventListener('DOMContentLoaded', function() {
     // Set current year in footer
     document.getElementById('year').textContent = new Date().getFullYear();
 
-    // Add keyboard navigation for accessibility
-    document.addEventListener('keydown', function(e) {
-        const activeButton = document.querySelector('.tab-button.active');
-        const buttons = Array.from(tabButtons);
-        const currentIndex = buttons.indexOf(activeButton);
-
-        if (e.key === 'ArrowRight' && currentIndex < buttons.length - 1) {
-            buttons[currentIndex + 1].click();
-            buttons[currentIndex + 1].focus();
-        } else if (e.key === 'ArrowLeft' && currentIndex > 0) {
-            buttons[currentIndex - 1].click();
-            buttons[currentIndex - 1].focus();
-        }
+    // Add keyboard navigation for accessibility on tab buttons
+    tabButtons.forEach((button, index) => {
+        button.addEventListener('keydown', function(e) {
+            if (e.key === 'ArrowRight' && index < tabButtons.length - 1) {
+                e.preventDefault();
+                tabButtons[index + 1].click();
+                tabButtons[index + 1].focus();
+            } else if (e.key === 'ArrowLeft' && index > 0) {
+                e.preventDefault();
+                tabButtons[index - 1].click();
+                tabButtons[index - 1].focus();
+            }
+        });
     });
 });
