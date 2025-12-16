@@ -87,12 +87,11 @@ main {
     min-height: 500px;
 }
 
-.tab-content {
-    display: none;
+#tab-content-container {
     animation: fadeIn 0.5s ease;
 }
 
-.tab-content.active {
+#tab-content-container .tab-content {
     display: block;
 }
 
