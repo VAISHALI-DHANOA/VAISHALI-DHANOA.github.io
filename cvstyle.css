@@ -27,6 +27,7 @@
   padding: 0.9rem 1.2rem;
   margin-bottom: 0.6rem;
   transition: box-shadow 0.2s ease, transform 0.2s ease;
+  color: #5b74e8;
 }
 
 .cv-item:hover {
@@ -38,7 +39,7 @@
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.15rem;
-  color: #222;
+  color: #5b74e8;;
 }
 
 /* ===== Institution + date line ===== */
