@@ -121,18 +121,7 @@ h3 {
     margin-top: 20px;
 }
 
-.cv-section {
-    margin-bottom: 35px;
-    padding: 20px;
-    background: #f8f9fa;
-    border-radius: 8px;
-    border-left: 4px solid #667eea;
-}
 
-.cv-section h3 {
-    margin-top: 0;
-    color: #667eea;
-}
 
 .project-card {
     margin-bottom: 30px;
