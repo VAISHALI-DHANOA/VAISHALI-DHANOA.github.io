@@ -1,0 +1,55 @@
+/* ===== CV Container ===== */
+#talk {
+  line-height: 1.35;
+  padding: 0.5rem 0;
+}
+
+/* ===== Sections ===== */
+.talk-section {
+  margin-bottom: 1.5rem;
+}
+
+.talk-section h2 {
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: #5b74e8;
+  margin-bottom: 0.8rem;
+  border-bottom: 1px solid #e6e9f5;
+  padding-bottom: 0.3rem;
+}
+
+.talk-item {
+   background: #f9fafc;
+  border: 1px solid #e6e9f5;
+  border-radius: 8px;
+  border-left: 3px solid #5b74e8;
+  padding: 0.9rem 1.2rem;
+  margin-bottom: 0.6rem;
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+  color: #5b74e8;
+}
+
+.talk-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
+}
+
+.talk-item h3 {
+      font-size: 1.25rem;
+  font-weight: 200;
+  margin-bottom: 0.15rem;
+  color: #5b74e8;;
+}
+
+.talk-item h4 {
+      font-size: 1rem;
+  font-weight: 200;
+  margin-bottom: 0.15rem;
+  color: #373737;;
+}
+
+.talk-details {
+    font-style: italic;
+    color: #666;
+    margin-bottom: 10px;
+}
