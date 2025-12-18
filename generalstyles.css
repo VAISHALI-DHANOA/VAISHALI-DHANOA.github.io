@@ -83,3 +83,20 @@
   color: #666;
   margin-bottom: 0.35rem;
 }
+.about-layout {
+  display: flex;
+  gap: 1.2rem;
+  align-items: flex-start;
+}
+
+.about-images {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+
+.about-images img {
+  width: 100%;
+  border-radius: 8px;
+}
