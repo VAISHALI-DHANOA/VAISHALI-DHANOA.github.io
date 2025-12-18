@@ -1,15 +1,15 @@
 /* ===== CV Container ===== */
-#contact {
+#main {
   line-height: 1.35;
   padding: 0.5rem 0;
 }
 
 /* ===== Sections ===== */
-.contact-section {
+.main-section {
   margin-bottom: 1.5rem;
 }
 
-.contact-section h2 {
+.main-section h2 {
   font-size: 1.5rem;
   font-weight: 200;
   color: #5b74e8;
@@ -18,7 +18,7 @@
   padding-bottom: 0.3rem;
 }
 
-.contact-item {
+.main-item {
    background: #f9fafc;
   border: 1px solid #e6e9f5;
   border-radius: 8px;
@@ -29,47 +29,47 @@
   color: #5b74e8;
 }
 
-.contact-item:hover {
+.main-item:hover {
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(102, 126, 234, 0.15);
 }
 
-.contact-item h3 {
+.main-item h3 {
   font-size: 1.25rem;
   font-weight: 200;
   margin-bottom: 0.15rem;
   color: #5b74e8;;
 }
 
-.contact-item h4 {
+.main-item h4 {
   font-size: 1rem;
   font-weight: 200;
   margin-bottom: 0.15rem;
   color: #373737;;
 }
 
-.contact-details {
-    font-style: italic;
+.main-details {
+    font-style: normal;
     color: #666;
     margin-bottom: 10px;
 }
 
-.contact-links {
+.main-links {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.contact-links li {
+.main-links li {
   margin-bottom: 0.4rem;
 }
 
-.contact-links a {
+.main-links a {
   color: #5b74e8;
   text-decoration: none;
   font-weight: 500;
 }
 
-.contact-links a:hover {
+.main-links a:hover {
   text-decoration: underline;
 }
