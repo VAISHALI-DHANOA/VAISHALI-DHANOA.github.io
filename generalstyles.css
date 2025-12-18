@@ -73,3 +73,13 @@
 .main-links a:hover {
   text-decoration: underline;
 }
+
+.main-meta {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.8rem;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  color: #666;
+  margin-bottom: 0.35rem;
+}
