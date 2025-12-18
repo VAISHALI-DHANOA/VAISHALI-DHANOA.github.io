@@ -1,4 +1,1 @@
--- add images and links in the publications
--- add images in the about me section
--- shift common things in a folder
--- improve overall layout
+
