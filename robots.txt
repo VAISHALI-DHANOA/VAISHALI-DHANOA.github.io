@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vaishali-dhanoa.github.io/sitemap.xml
