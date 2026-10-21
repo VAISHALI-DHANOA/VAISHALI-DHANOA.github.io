@@ -77,3 +77,4 @@ footer { border-top: 1px solid var(--rule); margin-top: 56px; padding: 22px 0 40
 .cite .t:hover{color:var(--accent);text-decoration:none}
 .cite .v{color:var(--muted)}
 .cite .doi{word-break:break-all}
+.gallery img.square{aspect-ratio:1/1}
