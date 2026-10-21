@@ -106,3 +106,8 @@
   color: inherit;          
   display: block;          
 }
+
+.about-images.talk-images {
+  width: 260px;
+  flex-shrink: 0;
+}
