@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     const savedTab = localStorage.getItem('activeTab');
-    const validTabs = ['aboutme', 'publications', 'talk', 'cv', 'contact'];
+    const validTabs = ['aboutme', 'publications', 'talk', 'awards', 'cv', 'contact'];
     const tabToOpen = savedTab && validTabs.includes(savedTab) ? savedTab : 'aboutme';
 
     setActiveButton(tabToOpen);
